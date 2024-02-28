@@ -450,7 +450,7 @@ export default {
     merkleTreeHeight: 20,
     emptyElement: '21663839004416932945382355908790599225266501822907911457504978515578255421292',
     networkName: 'Ethereum Goerli',
-    deployedBlock: 3781595,
+    deployedBlock: 10001595,
     multicall: '0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e',
     echoContractAccount: '0x37e6859804b6499d1e4a86d70a5fdd5de6a0ac65',
     aggregatorContract: '0x8cb1436F64a3c33aD17bb42F94e255c4c0E871b2',
@@ -463,7 +463,8 @@ export default {
     tokens: {
       eth: {
         instanceAddress: {
-          '0.1': '0xb7C85629E6A35799E523cDBf83f83C84dd3daa48',
+          // '0.1': '0xb7C85629E6A35799E523cDBf83f83C84dd3daa48',
+          '0.1': '0x6Bf694a291DF3FeC1f7e69701E3ab6c592435Ae7',
           '1': '0x3aac1cC67c2ec5Db4eA850957b967Ba153aD6279',
           '10': '0x723B78e67497E85279CB204544566F4dC5d2acA0',
           '100': '0x0E3A09dDA6B20aFbB34aC7cD4A6881493f3E7bf7'
@@ -542,7 +543,7 @@ export default {
     },
     'torn.contract.tornadocash.eth': '0x77777FeDdddFfC19Ff86DB637967013e6C6A116C',
     'governance.contract.tornadocash.eth': '0x5efda50f22d34F262c29268506C5Fa42cB56A1Ce',
-    // 'tornado-proxy.contract.tornadocash.eth': '0x454d870a72e29d5e5697f635128d18077bd04c60'
-    'tornado-proxy.contract.tornadocash.eth': '0xe3Dd56eED6E3e0f58eadC67A2271a151C01cA970'
+    'tornado-proxy.contract.tornadocash.eth': '0x454d870a72e29d5e5697f635128d18077bd04c60'
+    // 'tornado-proxy.contract.tornadocash.eth': '0xe3Dd56eED6E3e0f58eadC67A2271a151C01cA970'
   }
 }
