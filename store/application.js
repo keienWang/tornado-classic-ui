@@ -269,6 +269,7 @@ const actions = {
     const graphEvents = await eventService.getEventsFromGraph({ methodName: 'getStatistic' })
 
     let statistic = graphEvents?.events
+    console.log('statistic:', statistic, netId, amount, currency)
 
     if (!statistic || !statistic.length) {
       const fresh = await eventService.getStatisticsRpc({ eventsCount: 10 })
@@ -281,7 +282,6 @@ const actions = {
       amount,
       netId
     })
-
     statistic = statistic.sort((a, b) => a.leafIndex - b.leafIndex)
 
     const latestDeposits = []
