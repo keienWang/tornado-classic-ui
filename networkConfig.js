@@ -450,7 +450,7 @@ export default {
     merkleTreeHeight: 20,
     emptyElement: '21663839004416932945382355908790599225266501822907911457504978515578255421292',
     networkName: 'Ethereum Goerli',
-    deployedBlock: 10001595,
+    deployedBlock: 3781595,
     multicall: '0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e',
     echoContractAccount: '0x37e6859804b6499d1e4a86d70a5fdd5de6a0ac65',
     aggregatorContract: '0x8cb1436F64a3c33aD17bb42F94e255c4c0E871b2',
