@@ -463,8 +463,8 @@ export default {
     tokens: {
       eth: {
         instanceAddress: {
-          '0.1': '0xb7C85629E6A35799E523cDBf83f83C84dd3daa48',
-          // '0.1': '0x54647F7e1A03eC636080fC9A2EBE22f045Dd903A',
+          // '0.1': '0xb7C85629E6A35799E523cDBf83f83C84dd3daa48',
+          '0.1': '0x54647F7e1A03eC636080fC9A2EBE22f045Dd903A',
           '1': '0xe6Ec734814dAf4A0402dDb9Ef790e0092decC46c',
           '10': '0x78259d2C0B5d18d90967Bb533b8fBD08C40A93a1',
           '100': '0xEDD5394b6ed3773A284B6BECcB728c7Fc7f8CB3d'
